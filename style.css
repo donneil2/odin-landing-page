@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 100px 100px 100px;
+    
+}
+
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    list-style: none;
+    background-color: #1f2937;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5e7eb;
+    
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    width: 400px;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5e7eb;
+    width: 400px;
+}
+
+button {
+      align-items: center;
+      appearance: button;
+      background-color: #0276FF;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 0;
+      font-family: "RM Neue",sans-serif;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+      padding: 10px 21px;
+      text-align: center;
+      text-transform: none;
+      transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-top: 10px;
+}
+    
+.hero-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+}
